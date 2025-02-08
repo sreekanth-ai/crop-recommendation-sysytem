@@ -20,23 +20,16 @@ NumPy: Library for numerical computing used for handling arrays and mathematical
 Flask: Web framework used for building the user interface and handling HTTP requests.
 HTML/CSS: Markup and styling languages used for designing the web interface.
 JavaScript: Scripting language used for client-side interactions and enhancing the user interface.
-# Installation and Usage
-Clone the repository: git clone https://github.com/your-username/crop-recommendation-system.git
-Install the required dependencies: pip install -r requirements.txt
-Run the application: python app.py
-Access the application through the web browser at http://localhost:5000
+
 # Future Enhancements
-Integration of real-time weather data to improve the accuracy of recommendations.
-Incorporation of crop market prices and profitability analysis to assist farmers in making economically viable decisions.
-Development of a mobile application for convenient access and usage on smartphones and tablets.
-Integration of user feedback and data collection to continuously enhance the recommendation system's performance.
-Contributing
-Contributions to the project are welcome. If you have any suggestions, bug reports, or feature requests, please submit them through the issue tracker on the GitHub repository.
-
-
+- Integration of real-time weather data to improve the accuracy of recommendations.
+- Incorporation of crop market prices and profitability analysis to assist farmers in making economically viable decisions.
+- Development of a mobile application for convenient access and usage on smartphones and tablets.
+- Integration of user feedback and data collection to continuously enhance the recommendation system's performance.
+- Contributions to the project are welcome. If you have any suggestions, bug reports, or feature requests, please submit them through the issue tracker on the GitHub repository.
 
 # Acknowledgements
 We would like to express our gratitude to the agricultural research community, farmers, and organizations for providing valuable insights, data, and domain knowledge that contributed to the development of this Crop Recommendation System.
 
 # Contact
-For any inquiries or questions, please contact us at 611noorsaeed@gmail.com
+For any inquiries or questions, please contact us at polusreekanthreddys@gmail.com
