@@ -1,36 +1,42 @@
-# Crop Recommendation System Using Machine Learning
+# 🌾 Crop Recommendation System Using Machine Learning
 
-# Description
-- The Crop Recommendation System is a machine learning-based application that provides recommendations for suitable crops based on various environmental and soil conditions. It aims to assist farmers and agricultural professionals in making informed decisions about crop selection, optimizing yields, and maximizing profitability.
+<img width="577" height="564" alt="image" src="https://github.com/user-attachments/assets/38165ae6-c5b4-4188-b868-52e14a0076e2" />
 
-- The system takes into account several factors such as soil type, climate, rainfall, temperature, humidity, and pH levels to determine the most suitable crops for a given region. By analyzing historical data and using predictive models, the system provides personalized recommendations tailored to the specific conditions of a farm or agricultural area.
 
-# Key Features
-- Input Data Collection: The system allows users to input relevant data such as soil parameters, climate information, and geographic location.
-- Data Preprocessing: The input data is preprocessed to handle missing values, normalize or scale features, and transform categorical variables.
-- Machine Learning Models: Various machine learning algorithms are employed, including decision trees, random forests, support vector machines (SVM), and gradient boosting techniques, to build predictive models.
-- Model Training and Evaluation: The models are trained on historical data and evaluated using appropriate performance metrics to ensure accuracy and reliability.
-- Crop Recommendation: Based on the trained models, the system recommends the most suitable crops for the given input parameters.
-- User-Friendly Interface: The system provides a user-friendly interface where users can easily input their data, view recommendations, and explore additional information.
+## 📌 Project Description
+This project develops a **machine learning-based system** to recommend the most suitable crop for a farmer based on **soil, weather, and environmental parameters**.  
+The system helps farmers make data-driven decisions to maximize yield and optimize resources.  
+It is deployed as an interactive **Streamlit app** for real-time recommendations.
 
-# Technologies Used
-- Python: Programming language used for model development, data preprocessing, and web application development.
-- Scikit-learn: Machine learning library used for model training, evaluation, and prediction.
-- Pandas: Data manipulation library used for data preprocessing and analysis.
-- NumPy: Library for numerical computing used for handling arrays and mathematical operations.
-- Flask: Web framework used for building the user interface and handling HTTP requests.
-- HTML/CSS: Markup and styling languages used for designing the web interface.
-- JavaScript: Scripting language used for client-side interactions and enhancing the user interface.
+---
 
-# Future Enhancements
-- Integration of real-time weather data to improve the accuracy of recommendations.
-- Incorporation of crop market prices and profitability analysis to assist farmers in making economically viable decisions.
-- Development of a mobile application for convenient access and usage on smartphones and tablets.
-- Integration of user feedback and data collection to continuously enhance the recommendation system's performance.
-- Contributions to the project are welcome. If you have any suggestions, bug reports, or feature requests, please submit them through the issue tracker on the GitHub repository.
+## 🚀 Key Features
+- Input parameters: Soil Nitrogen (N), Phosphorus (P), Potassium (K), pH, Rainfall, Temperature, Humidity  
+- Preprocessing: Scaling and cleaning of input features  
+- Machine Learning Models: Trained classifiers such as **Random Forest**, **Decision Tree**, or **Gradient Boosting**  
+- Real-time Recommendations: Streamlit app predicts the most suitable crop for given input conditions  
 
-# Acknowledgements
-We would like to express our gratitude to the agricultural research community, farmers, and organizations for providing valuable insights, data, and domain knowledge that contributed to the development of this Crop Recommendation System.
+---
 
-# Contact
-For any inquiries or questions, please contact us at polusreekanthreddys@gmail.com
+## 🛠 Tech Stack
+- Python  
+- pandas, numpy  
+- scikit-learn  
+- Streamlit  
+- Pickle (for saving trained model)
+
+---
+
+## 📂 Project Structure
+- `Crop_Recommendation.ipynb` → Jupyter notebook for data exploration, preprocessing, and model training  
+- `app.py` → Streamlit app for deployment  
+- `model.pkl` → Trained ML model  
+- `scaler.pkl` → Preprocessing scaler (if used)
+
+---
+
+
+## 🖥️ Usage
+### Launch the App
+```bash
+streamlit run app.py
