@@ -1,6 +1,6 @@
 # 🌾 Crop Recommendation System Using Machine Learning
 
-<img width="1314" height="541" alt="image" src="https://github.com/user-attachments/assets/ceb902ea-de6e-4324-898a-6afb6b9e4676" />
+<img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/098aff26-d6a7-4a63-b57f-b37f416787dc" />
 
 
 ## 📌 Project Description
