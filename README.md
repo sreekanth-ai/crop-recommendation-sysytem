@@ -28,12 +28,16 @@ It is deployed as an interactive **Streamlit app** for real-time recommendations
 ---
 
 ## 📂 Project Structure
-- `Crop_Recommendation.ipynb` → Jupyter notebook for data exploration, preprocessing, and model training  
-- `app.py` → Streamlit app for deployment  
-- `model.pkl` → Trained ML model  
-- `scaler.pkl` → Preprocessing scaler (if used)
+| File | Description |
+|------|-------------|
+| `Crop Recommendation System.ipynb` | Notebook for data exploration, preprocessing, and model training |
+| `Crop_recommendation.csv` | Dataset used for training the model |
+| `app.py` | Streamlit app for deployment |
+| `crop_recommendation_model.pkl` | Pickled trained ML model |
+| `img.jpg` | Image used for app interface or demo |
+| `index.html` | Optional HTML file for demo or documentation |
+| `README.md` | Project documentation |
 
----
 
 
 ## 🖥️ Usage
